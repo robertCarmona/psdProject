@@ -1,0 +1,156 @@
+/* nav bar  */
+nav{
+  height: 150px;
+  background-color: #FE7E00;
+}
+/* makes most elements inline */
+.left h1, .right li, .left, .right{
+  display: inline-block;
+}
+/* effects both left and right on nav bar */
+.left, .right{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+/* left side of nav bar */
+.left{
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 11%;
+  padding-top: 3%;
+  width: 35%;
+}
+.left img{
+  height: 55px;
+  width: 55px;
+  margin:0;
+}
+.left h1{
+  color: white;
+  top: 12%;
+  position: absolute;
+  font-weight: normal;
+}
+.left h1 span{
+  font-weight: bold;
+}
+/* right side of nav bar */
+.right{
+  float:right;
+  box-sizing: border-box;
+  padding-top: 3%;
+  width: 63%;
+}
+.right li{
+  vertical-align: middle;
+}
+.right li a{
+  text-decoration: none;
+  color: white;
+}
+
+/* middle section */
+section{
+  margin-bottom: 50px;
+  height: 475px;
+}
+/* search bar */
+.search{
+  text-align: end;
+  position: relative;
+  bottom: 0;
+}
+.search input{
+  background-color:#f0f0f0;
+  box-shadow:5px 5px #bcbcbc;
+  border: none;
+  font-size: 25px;
+  font-weight: normal;
+  height: 50px;
+  margin: 10px;
+  width: 200px;
+}
+.search i{
+  position:absolute;
+  right: 2%;
+  top: 30%;
+  font-size: 25px;
+  color:#bfbfbf
+}
+/* Middle section */
+/* orange image on the right */
+.img, .textbuttons{
+  display:inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+.img{
+  text-align: center;
+}
+.img img{
+  height: 300px;
+  width: 400px;
+}
+/* text and buttons area */
+.textbuttons{
+  vertical-align: middle;
+}
+/* text */
+.textbuttons h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #FE8713;
+  font-size: 30px;
+  font-weight:normal;
+  line-height: 60px;
+}
+.textbuttons h2 span{
+  color: #FF7E00;
+  font-weight:bold;
+}
+/* left button and right button */
+.lbtn, .rbtn{
+  height: 50px;
+  width: 47%;
+  box-sizing: border-box;
+  color: white;
+  border: none;
+}
+/* left button */
+.lbtn{
+  background-color: #7CCCCB;
+  margin-right: 2%;
+}
+/* right button */
+.rbtn{
+  margin-left: 2%;
+  background-color: #FE7E00;
+}
+/* footer section */
+footer{
+  background-color: #7CCCCB;
+  height: 150px;
+  position: relative;
+  bottom: 0;
+}
+.icons{
+  position: absolute;
+  right: 50%;
+  top: 25%;
+}
+.icons a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+a:first-child{
+  padding-right:15px;
+}
+a:nth-child(2){
+  padding: 0 15px;
+}
+a:last-child{
+  padding-left: 15px;
+}
