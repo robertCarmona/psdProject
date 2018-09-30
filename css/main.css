@@ -19,7 +19,7 @@ nav{
 .left{
   text-align: left;
   box-sizing: border-box;
-  padding-left: 11%;
+  padding-left: 6%;
   padding-top: 3%;
   width: 35%;
 }
@@ -86,6 +86,7 @@ section{
   display:inline-block;
   width: 49%;
   vertical-align: top;
+  margin-top: 65px;
 }
 .img{
   text-align: center;
@@ -137,7 +138,7 @@ footer{
 }
 .icons{
   position: absolute;
-  right: 50%;
+  right: 43%;
   top: 25%;
 }
 .icons a{
@@ -153,4 +154,93 @@ a:nth-child(2){
 }
 a:last-child{
   padding-left: 15px;
+}
+@media(max-width: 768px){
+
+  nav {
+    height: 110px;
+  }
+  .left h1{
+    font-size: 32px;
+  }
+  .right{
+    width: 65%;
+    font-size:18px;
+    padding: 3.5%;
+  }
+  .right li a {
+    padding: 2px;
+  }
+  /* section media 976 */
+  section{
+    height: 390px;
+  }
+  .textbuttons,.img{
+    margin-top: 30px;
+  }
+  .img img {
+    height: 265px;
+    width: 300px;
+  }
+  .textbuttons h2 {
+    font-size: 24px;
+    line-height: 50px;
+  }
+  /* footer */
+  footer{
+    height: 110px;
+  }
+
+}
+/* section mobile */
+@media(max-width: 425px){
+  /* nav bar mobile */
+  nav{
+    height: 130px;
+  }
+  .left, .right{
+    display: block;
+    height: 50%;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .left{
+    float:none;
+    }
+  .left h1{
+  position: relative;
+  }
+  .left img{
+    position: relative;
+    top: 22px;
+  }
+  /* section */
+  .img img {
+    height: 210px;
+    width: 230px;
+  }
+  .right li a{
+    font-size: 15px;
+  }
+  .search input {
+    margin-left: 0;
+    width: 100%;
+  }
+  .textbuttons, .img {
+    display: block;
+    width:100%;
+    text-align: center;
+  }
+  .textbuttons h2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  /* footer */
+  footer{
+    bottom:-38px;
+  }
+  .icons {
+    right: 33%;
+  }
 }
