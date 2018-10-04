@@ -226,6 +226,7 @@ a:last-child{
   }
   .search input {
     margin-left: 0;
+    margin-right:0;
     width: 100%;
   }
   .textbuttons, .img {
