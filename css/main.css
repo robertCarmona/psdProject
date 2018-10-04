@@ -118,6 +118,7 @@ section{
   box-sizing: border-box;
   color: white;
   border: none;
+  vertical-align: top;
 }
 /* left button */
 .lbtn{
